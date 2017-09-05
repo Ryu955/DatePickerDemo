@@ -1,0 +1,1282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB5FB74B1F5F23C200F872F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FB74A1F5F23C200F872F3 /* AppDelegate.swift */; };
+		CB5FB74D1F5F23C200F872F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FB74C1F5F23C200F872F3 /* ViewController.swift */; };
+		CB5FB7501F5F23C200F872F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5FB74E1F5F23C200F872F3 /* Main.storyboard */; };
+		CB5FB7521F5F23C200F872F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5FB7511F5F23C200F872F3 /* Assets.xcassets */; };
+		CB5FB7551F5F23C200F872F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5FB7531F5F23C200F872F3 /* LaunchScreen.storyboard */; };
+		CB5FB7601F5F23C300F872F3 /* ActionSheetPickerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FB75F1F5F23C300F872F3 /* ActionSheetPickerDemoTests.swift */; };
+		CB5FB76B1F5F23C300F872F3 /* ActionSheetPickerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FB76A1F5F23C300F872F3 /* ActionSheetPickerDemoUITests.swift */; };
+		CB5FB8401F5F2BB200F872F3 /* CoreActionSheetPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB5FB83F1F5F2BB200F872F3 /* CoreActionSheetPicker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB5FB75C1F5F23C300F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB73F1F5F23C200F872F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5FB7461F5F23C200F872F3;
+			remoteInfo = ActionSheetPickerDemo;
+		};
+		CB5FB7671F5F23C300F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB73F1F5F23C200F872F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB5FB7461F5F23C200F872F3;
+			remoteInfo = ActionSheetPickerDemo;
+		};
+		CB5FB8251F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB7971F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CD15A2F192C7A0A00B28881;
+			remoteInfo = "ActionSheetPicker-iOS-5-7";
+		};
+		CB5FB8291F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB7D41F5F2B9400F872F3 /* ActionSheetPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CD15A2F192C7A0A00B28881;
+			remoteInfo = ActionSheetPicker;
+		};
+		CB5FB82B1F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB7D41F5F2B9400F872F3 /* ActionSheetPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C9444B5197B1C2F005F495B;
+			remoteInfo = ActionSheetPickerTests;
+		};
+		CB5FB82F1F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB78E1F5F2B9400F872F3 /* CoreActionSheetPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CCA90431AE0EFB000368F5E;
+			remoteInfo = CoreActionSheetPicker;
+		};
+		CB5FB8311F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB78E1F5F2B9400F872F3 /* CoreActionSheetPicker.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CCA904E1AE0EFB000368F5E;
+			remoteInfo = CoreActionSheetPickerTests;
+		};
+		CB5FB8351F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB7C11F5F2B9400F872F3 /* Framework-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C1B33B81ADD75B1008E962A;
+			remoteInfo = "Framework-objc";
+		};
+		CB5FB8371F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB7C11F5F2B9400F872F3 /* Framework-objc.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C1B33D11ADD75B1008E962A;
+			remoteInfo = "Framework-objcTests";
+		};
+		CB5FB83B1F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB7FD1F5F2B9500F872F3 /* Swift-Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C57844C1B15BE2C00172D8A;
+			remoteInfo = "Swift-Example";
+		};
+		CB5FB83D1F5F2B9500F872F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB5FB7FD1F5F2B9500F872F3 /* Swift-Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1C5784611B15BE2C00172D8A;
+			remoteInfo = "Swift-ExampleTests";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB5FB7471F5F23C200F872F3 /* ActionSheetPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActionSheetPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5FB74A1F5F23C200F872F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB5FB74C1F5F23C200F872F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB5FB74F1F5F23C200F872F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB5FB7511F5F23C200F872F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5FB7541F5F23C200F872F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB5FB7561F5F23C200F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB75B1F5F23C300F872F3 /* ActionSheetPickerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionSheetPickerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5FB75F1F5F23C300F872F3 /* ActionSheetPickerDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetPickerDemoTests.swift; sourceTree = "<group>"; };
+		CB5FB7611F5F23C300F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB7661F5F23C300F872F3 /* ActionSheetPickerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionSheetPickerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5FB76A1F5F23C300F872F3 /* ActionSheetPickerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionSheetPickerDemoUITests.swift; sourceTree = "<group>"; };
+		CB5FB76C1F5F23C300F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB77A1F5F2B9400F872F3 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		CB5FB77B1F5F2B9400F872F3 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		CB5FB77C1F5F2B9400F872F3 /* ActionSheetPicker-3.0.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ActionSheetPicker-3.0.podspec"; sourceTree = "<group>"; };
+		CB5FB77D1F5F2B9400F872F3 /* ActionSheetPicker-3.0.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = "ActionSheetPicker-3.0.xcworkspace"; sourceTree = "<group>"; };
+		CB5FB77E1F5F2B9400F872F3 /* AUTHORS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AUTHORS.md; sourceTree = "<group>"; };
+		CB5FB77F1F5F2B9400F872F3 /* BASIC-USAGE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "BASIC-USAGE.md"; sourceTree = "<group>"; };
+		CB5FB7821F5F2B9400F872F3 /* .ActionSheetPicker-3.0.version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".ActionSheetPicker-3.0.version"; sourceTree = "<group>"; };
+		CB5FB7841F5F2B9400F872F3 /* 292463F6-39DB-3AB0-8702-F85EB6A6B0FF.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "292463F6-39DB-3AB0-8702-F85EB6A6B0FF.bcsymbolmap"; sourceTree = "<group>"; };
+		CB5FB7851F5F2B9400F872F3 /* CoreActionSheetPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreActionSheetPicker.framework; sourceTree = "<group>"; };
+		CB5FB7861F5F2B9400F872F3 /* CoreActionSheetPicker.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = CoreActionSheetPicker.framework.dSYM; sourceTree = "<group>"; };
+		CB5FB7871F5F2B9400F872F3 /* F471F334-8A5A-35C3-B28B-A76073BE0ECB.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "F471F334-8A5A-35C3-B28B-A76073BE0ECB.bcsymbolmap"; sourceTree = "<group>"; };
+		CB5FB7881F5F2B9400F872F3 /* CHANGELOG.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		CB5FB7891F5F2B9400F872F3 /* CONTRIBUTING.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		CB5FB78C1F5F2B9400F872F3 /* CoreActionSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreActionSheetPicker.h; sourceTree = "<group>"; };
+		CB5FB78D1F5F2B9400F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB78E1F5F2B9400F872F3 /* CoreActionSheetPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CoreActionSheetPicker.xcodeproj; sourceTree = "<group>"; };
+		CB5FB7921F5F2B9400F872F3 /* CoreActionSheetPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreActionSheetPickerTests.m; sourceTree = "<group>"; };
+		CB5FB7931F5F2B9400F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB7961F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker-iOS-5-7-Info.plist"; sourceTree = "<group>"; };
+		CB5FB7971F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "ActionSheetPicker-iOS-5-7.xcodeproj"; sourceTree = "<group>"; };
+		CB5FB79A1F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-iOS-5-7_Prefix.pch"; sourceTree = "<group>"; };
+		CB5FB79D1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPickerAppDelegate.h; sourceTree = "<group>"; };
+		CB5FB79E1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPickerAppDelegate.m; sourceTree = "<group>"; };
+		CB5FB79F1F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPickerCustomPickerDelegate.h; sourceTree = "<group>"; };
+		CB5FB7A01F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPickerCustomPickerDelegate.m; sourceTree = "<group>"; };
+		CB5FB7A11F5F2B9400F872F3 /* NSDate+TCUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TCUtils.h"; sourceTree = "<group>"; };
+		CB5FB7A21F5F2B9400F872F3 /* NSDate+TCUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TCUtils.m"; sourceTree = "<group>"; };
+		CB5FB7A31F5F2B9400F872F3 /* OldActionSheetPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OldActionSheetPickerViewController.h; sourceTree = "<group>"; };
+		CB5FB7A41F5F2B9400F872F3 /* OldActionSheetPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OldActionSheetPickerViewController.m; sourceTree = "<group>"; };
+		CB5FB7A51F5F2B9400F872F3 /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		CB5FB7A61F5F2B9400F872F3 /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		CB5FB7A71F5F2B9400F872F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB5FB7A81F5F2B9400F872F3 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		CB5FB7A91F5F2B9400F872F3 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		CB5FB7AA1F5F2B9400F872F3 /* Default-736w@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736w@3x.png"; sourceTree = "<group>"; };
+		CB5FB7AC1F5F2B9400F872F3 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		CB5FB7AD1F5F2B9400F872F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB5FB7AE1F5F2B9400F872F3 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		CB5FB7B01F5F2B9400F872F3 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		CB5FB7B11F5F2B9400F872F3 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		CB5FB7B21F5F2B9400F872F3 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CB5FB7B41F5F2B9400F872F3 /* CoreActionSheetPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreActionSheetPicker.framework; sourceTree = "<group>"; };
+		CB5FB7B61F5F2B9400F872F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB5FB7B71F5F2B9400F872F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB5FB7B91F5F2B9400F872F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB5FB7BB1F5F2B9400F872F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB5FB7BC1F5F2B9400F872F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB5FB7BD1F5F2B9400F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB7BE1F5F2B9400F872F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB5FB7BF1F5F2B9400F872F3 /* MyTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		CB5FB7C01F5F2B9400F872F3 /* MyTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
+		CB5FB7C11F5F2B9400F872F3 /* Framework-objc.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Framework-objc.xcodeproj"; sourceTree = "<group>"; };
+		CB5FB7C51F5F2B9400F872F3 /* Framework_objcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Framework_objcTests.m; sourceTree = "<group>"; };
+		CB5FB7C61F5F2B9400F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB7C91F5F2B9400F872F3 /* AbstractActionSheetPickerTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPickerTestCase.m; sourceTree = "<group>"; };
+		CB5FB7CA1F5F2B9400F872F3 /* ActionSheetCustomPickerTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPickerTestCase.m; sourceTree = "<group>"; };
+		CB5FB7CB1F5F2B9400F872F3 /* ActionSheetCustomPickerTestDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerTestDelegate.h; sourceTree = "<group>"; };
+		CB5FB7CC1F5F2B9400F872F3 /* ActionSheetCustomPickerTestDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPickerTestDelegate.m; sourceTree = "<group>"; };
+		CB5FB7CD1F5F2B9400F872F3 /* ActionSheetDatePickerTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePickerTestCase.m; sourceTree = "<group>"; };
+		CB5FB7CE1F5F2B9400F872F3 /* ActionSheetLocalePickerTestCase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePickerTestCase.m; sourceTree = "<group>"; };
+		CB5FB7CF1F5F2B9400F872F3 /* ActionSheetPicker Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker Tests-Info.plist"; sourceTree = "<group>"; };
+		CB5FB7D01F5F2B9400F872F3 /* ActionSheetPicker Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker Tests-Prefix.pch"; sourceTree = "<group>"; };
+		CB5FB7D21F5F2B9400F872F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB5FB7D31F5F2B9400F872F3 /* ActionSheetPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionSheetPicker-Info.plist"; sourceTree = "<group>"; };
+		CB5FB7D41F5F2B9400F872F3 /* ActionSheetPicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ActionSheetPicker.xcodeproj; sourceTree = "<group>"; };
+		CB5FB7D71F5F2B9400F872F3 /* ActionSheetPicker_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker_Prefix.pch; sourceTree = "<group>"; };
+		CB5FB7DA1F5F2B9400F872F3 /* AbstractActionSheetPicker+CustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AbstractActionSheetPicker+CustomButton.h"; sourceTree = "<group>"; };
+		CB5FB7DB1F5F2B9400F872F3 /* AbstractActionSheetPicker+CustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AbstractActionSheetPicker+CustomButton.m"; sourceTree = "<group>"; };
+		CB5FB7DC1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPickerAppDelegate.h; sourceTree = "<group>"; };
+		CB5FB7DD1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPickerAppDelegate.m; sourceTree = "<group>"; };
+		CB5FB7DE1F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPickerCustomPickerDelegate.h; sourceTree = "<group>"; };
+		CB5FB7DF1F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPickerCustomPickerDelegate.m; sourceTree = "<group>"; };
+		CB5FB7E01F5F2B9400F872F3 /* ActionSheetPickerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPickerTableViewController.h; sourceTree = "<group>"; };
+		CB5FB7E11F5F2B9400F872F3 /* ActionSheetPickerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPickerTableViewController.m; sourceTree = "<group>"; };
+		CB5FB7E21F5F2B9400F872F3 /* ActionSheetPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPickerViewController.h; sourceTree = "<group>"; };
+		CB5FB7E31F5F2B9400F872F3 /* ActionSheetPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetPickerViewController.m; sourceTree = "<group>"; };
+		CB5FB7E41F5F2B9500F872F3 /* NSDate+TCUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+TCUtils.h"; sourceTree = "<group>"; };
+		CB5FB7E51F5F2B9500F872F3 /* NSDate+TCUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+TCUtils.m"; sourceTree = "<group>"; };
+		CB5FB7E61F5F2B9500F872F3 /* TestTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestTableViewController.h; sourceTree = "<group>"; };
+		CB5FB7E71F5F2B9500F872F3 /* TestTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTableViewController.m; sourceTree = "<group>"; };
+		CB5FB7E81F5F2B9500F872F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CB5FB7E91F5F2B9500F872F3 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		CB5FB7EA1F5F2B9500F872F3 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		CB5FB7EB1F5F2B9500F872F3 /* Default-736w@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736w@3x.png"; sourceTree = "<group>"; };
+		CB5FB7EC1F5F2B9500F872F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB5FB7EE1F5F2B9500F872F3 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		CB5FB7EF1F5F2B9500F872F3 /* ok.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ok.png; sourceTree = "<group>"; };
+		CB5FB7F01F5F2B9500F872F3 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CB5FB7F21F5F2B9500F872F3 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		CB5FB7F41F5F2B9500F872F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB5FB7F61F5F2B9500F872F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB5FB7F81F5F2B9500F872F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB5FB7F91F5F2B9500F872F3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB5FB7FA1F5F2B9500F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB7FC1F5F2B9500F872F3 /* SWTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWTableViewController.swift; sourceTree = "<group>"; };
+		CB5FB7FD1F5F2B9500F872F3 /* Swift-Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Swift-Example.xcodeproj"; sourceTree = "<group>"; };
+		CB5FB8011F5F2B9500F872F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB5FB8021F5F2B9500F872F3 /* Swift_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_ExampleTests.swift; sourceTree = "<group>"; };
+		CB5FB8031F5F2B9500F872F3 /* Example.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = Example.xcworkspace; sourceTree = "<group>"; };
+		CB5FB8041F5F2B9500F872F3 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CB5FB8061F5F2B9500F872F3 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		CB5FB8071F5F2B9500F872F3 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		CB5FB8081F5F2B9500F872F3 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		CB5FB8091F5F2B9500F872F3 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		CB5FB80A1F5F2B9500F872F3 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		CB5FB80B1F5F2B9500F872F3 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		CB5FB80C1F5F2B9500F872F3 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		CB5FB80D1F5F2B9500F872F3 /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		CB5FB80E1F5F2B9500F872F3 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		CB5FB80F1F5F2B9500F872F3 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		CB5FB8101F5F2B9500F872F3 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		CB5FB8111F5F2B9500F872F3 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		CB5FB8121F5F2B9500F872F3 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		CB5FB8131F5F2B9500F872F3 /* ActionSheetPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetPicker.h; sourceTree = "<group>"; };
+		CB5FB8141F5F2B9500F872F3 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		CB5FB8151F5F2B9500F872F3 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		CB5FB8161F5F2B9500F872F3 /* DistancePickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistancePickerView.h; sourceTree = "<group>"; };
+		CB5FB8171F5F2B9500F872F3 /* DistancePickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DistancePickerView.m; sourceTree = "<group>"; };
+		CB5FB8181F5F2B9500F872F3 /* SWActionSheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWActionSheet.h; sourceTree = "<group>"; };
+		CB5FB8191F5F2B9500F872F3 /* SWActionSheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWActionSheet.m; sourceTree = "<group>"; };
+		CB5FB81A1F5F2B9500F872F3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		CB5FB81C1F5F2B9500F872F3 /* blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur.png; sourceTree = "<group>"; };
+		CB5FB81D1F5F2B9500F872F3 /* custom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom.png; sourceTree = "<group>"; };
+		CB5FB81E1F5F2B9500F872F3 /* date.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = date.png; sourceTree = "<group>"; };
+		CB5FB81F1F5F2B9500F872F3 /* example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example.gif; sourceTree = "<group>"; };
+		CB5FB8201F5F2B9500F872F3 /* ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.png; sourceTree = "<group>"; };
+		CB5FB8211F5F2B9500F872F3 /* locale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locale.png; sourceTree = "<group>"; };
+		CB5FB8221F5F2B9500F872F3 /* string.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = string.png; sourceTree = "<group>"; };
+		CB5FB8231F5F2B9500F872F3 /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		CB5FB83F1F5F2BB200F872F3 /* CoreActionSheetPicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreActionSheetPicker.framework; path = Carthage/Build/iOS/CoreActionSheetPicker.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5FB7441F5F23C200F872F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FB8401F5F2BB200F872F3 /* CoreActionSheetPicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FB7581F5F23C300F872F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FB7631F5F23C300F872F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB5FB73E1F5F23C200F872F3 = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7491F5F23C200F872F3 /* ActionSheetPickerDemo */,
+				CB5FB75E1F5F23C300F872F3 /* ActionSheetPickerDemoTests */,
+				CB5FB7691F5F23C300F872F3 /* ActionSheetPickerDemoUITests */,
+				CB5FB7481F5F23C200F872F3 /* Products */,
+				CB5FB7781F5F2B9300F872F3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5FB7481F5F23C200F872F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7471F5F23C200F872F3 /* ActionSheetPickerDemo.app */,
+				CB5FB75B1F5F23C300F872F3 /* ActionSheetPickerDemoTests.xctest */,
+				CB5FB7661F5F23C300F872F3 /* ActionSheetPickerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5FB7491F5F23C200F872F3 /* ActionSheetPickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB74A1F5F23C200F872F3 /* AppDelegate.swift */,
+				CB5FB74C1F5F23C200F872F3 /* ViewController.swift */,
+				CB5FB74E1F5F23C200F872F3 /* Main.storyboard */,
+				CB5FB7511F5F23C200F872F3 /* Assets.xcassets */,
+				CB5FB7531F5F23C200F872F3 /* LaunchScreen.storyboard */,
+				CB5FB7561F5F23C200F872F3 /* Info.plist */,
+			);
+			path = ActionSheetPickerDemo;
+			sourceTree = "<group>";
+		};
+		CB5FB75E1F5F23C300F872F3 /* ActionSheetPickerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB75F1F5F23C300F872F3 /* ActionSheetPickerDemoTests.swift */,
+				CB5FB7611F5F23C300F872F3 /* Info.plist */,
+			);
+			path = ActionSheetPickerDemoTests;
+			sourceTree = "<group>";
+		};
+		CB5FB7691F5F23C300F872F3 /* ActionSheetPickerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB76A1F5F23C300F872F3 /* ActionSheetPickerDemoUITests.swift */,
+				CB5FB76C1F5F23C300F872F3 /* Info.plist */,
+			);
+			path = ActionSheetPickerDemoUITests;
+			sourceTree = "<group>";
+		};
+		CB5FB7781F5F2B9300F872F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB83F1F5F2BB200F872F3 /* CoreActionSheetPicker.framework */,
+				CB5FB7791F5F2B9400F872F3 /* ActionSheetPicker-3.0 */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB5FB7791F5F2B9400F872F3 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB77A1F5F2B9400F872F3 /* .gitignore */,
+				CB5FB77B1F5F2B9400F872F3 /* .travis.yml */,
+				CB5FB77C1F5F2B9400F872F3 /* ActionSheetPicker-3.0.podspec */,
+				CB5FB77D1F5F2B9400F872F3 /* ActionSheetPicker-3.0.xcworkspace */,
+				CB5FB77E1F5F2B9400F872F3 /* AUTHORS.md */,
+				CB5FB77F1F5F2B9400F872F3 /* BASIC-USAGE.md */,
+				CB5FB7801F5F2B9400F872F3 /* Carthage */,
+				CB5FB7881F5F2B9400F872F3 /* CHANGELOG.md */,
+				CB5FB7891F5F2B9400F872F3 /* CONTRIBUTING.md */,
+				CB5FB78A1F5F2B9400F872F3 /* CoreActionSheetPicker */,
+				CB5FB7941F5F2B9400F872F3 /* Example Projects */,
+				CB5FB8031F5F2B9500F872F3 /* Example.xcworkspace */,
+				CB5FB8041F5F2B9500F872F3 /* LICENSE */,
+				CB5FB8051F5F2B9500F872F3 /* Pickers */,
+				CB5FB81A1F5F2B9500F872F3 /* README.md */,
+				CB5FB81B1F5F2B9500F872F3 /* Screenshots */,
+			);
+			name = "ActionSheetPicker-3.0";
+			path = "Carthage/Checkouts/ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		CB5FB7801F5F2B9400F872F3 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7811F5F2B9400F872F3 /* Build */,
+			);
+			path = Carthage;
+			sourceTree = "<group>";
+		};
+		CB5FB7811F5F2B9400F872F3 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7821F5F2B9400F872F3 /* .ActionSheetPicker-3.0.version */,
+				CB5FB7831F5F2B9400F872F3 /* iOS */,
+			);
+			path = Build;
+			sourceTree = "<group>";
+		};
+		CB5FB7831F5F2B9400F872F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7841F5F2B9400F872F3 /* 292463F6-39DB-3AB0-8702-F85EB6A6B0FF.bcsymbolmap */,
+				CB5FB7851F5F2B9400F872F3 /* CoreActionSheetPicker.framework */,
+				CB5FB7861F5F2B9400F872F3 /* CoreActionSheetPicker.framework.dSYM */,
+				CB5FB7871F5F2B9400F872F3 /* F471F334-8A5A-35C3-B28B-A76073BE0ECB.bcsymbolmap */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		CB5FB78A1F5F2B9400F872F3 /* CoreActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB78B1F5F2B9400F872F3 /* CoreActionSheetPicker */,
+				CB5FB78E1F5F2B9400F872F3 /* CoreActionSheetPicker.xcodeproj */,
+				CB5FB7911F5F2B9400F872F3 /* CoreActionSheetPickerTests */,
+			);
+			path = CoreActionSheetPicker;
+			sourceTree = "<group>";
+		};
+		CB5FB78B1F5F2B9400F872F3 /* CoreActionSheetPicker */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB78C1F5F2B9400F872F3 /* CoreActionSheetPicker.h */,
+				CB5FB78D1F5F2B9400F872F3 /* Info.plist */,
+			);
+			path = CoreActionSheetPicker;
+			sourceTree = "<group>";
+		};
+		CB5FB78F1F5F2B9400F872F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB8301F5F2B9500F872F3 /* CoreActionSheetPicker.framework */,
+				CB5FB8321F5F2B9500F872F3 /* CoreActionSheetPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5FB7911F5F2B9400F872F3 /* CoreActionSheetPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7921F5F2B9400F872F3 /* CoreActionSheetPickerTests.m */,
+				CB5FB7931F5F2B9400F872F3 /* Info.plist */,
+			);
+			path = CoreActionSheetPickerTests;
+			sourceTree = "<group>";
+		};
+		CB5FB7941F5F2B9400F872F3 /* Example Projects */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7951F5F2B9400F872F3 /* Example-for-iOS-7-and-6 */,
+				CB5FB7B31F5F2B9400F872F3 /* Framework-objc */,
+				CB5FB7C71F5F2B9400F872F3 /* ObjC-Example */,
+				CB5FB7F11F5F2B9500F872F3 /* Swift-Example */,
+			);
+			path = "Example Projects";
+			sourceTree = "<group>";
+		};
+		CB5FB7951F5F2B9400F872F3 /* Example-for-iOS-7-and-6 */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7961F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7-Info.plist */,
+				CB5FB7971F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7.xcodeproj */,
+				CB5FB79A1F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7_Prefix.pch */,
+				CB5FB79B1F5F2B9400F872F3 /* Example */,
+				CB5FB7B21F5F2B9400F872F3 /* Storyboard.storyboard */,
+			);
+			path = "Example-for-iOS-7-and-6";
+			sourceTree = "<group>";
+		};
+		CB5FB7981F5F2B9400F872F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB8261F5F2B9500F872F3 /* ActionSheetPicker-iOS-5-7.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5FB79B1F5F2B9400F872F3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB79C1F5F2B9400F872F3 /* Classes */,
+				CB5FB7A71F5F2B9400F872F3 /* Default-568h@2x.png */,
+				CB5FB7A81F5F2B9400F872F3 /* Default-667h@2x.png */,
+				CB5FB7A91F5F2B9400F872F3 /* Default-736h@3x.png */,
+				CB5FB7AA1F5F2B9400F872F3 /* Default-736w@3x.png */,
+				CB5FB7AB1F5F2B9400F872F3 /* iPad */,
+				CB5FB7AD1F5F2B9400F872F3 /* main.m */,
+				CB5FB7AE1F5F2B9400F872F3 /* MainWindow.xib */,
+				CB5FB7AF1F5F2B9400F872F3 /* Resources */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		CB5FB79C1F5F2B9400F872F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB79D1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.h */,
+				CB5FB79E1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.m */,
+				CB5FB79F1F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.h */,
+				CB5FB7A01F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.m */,
+				CB5FB7A11F5F2B9400F872F3 /* NSDate+TCUtils.h */,
+				CB5FB7A21F5F2B9400F872F3 /* NSDate+TCUtils.m */,
+				CB5FB7A31F5F2B9400F872F3 /* OldActionSheetPickerViewController.h */,
+				CB5FB7A41F5F2B9400F872F3 /* OldActionSheetPickerViewController.m */,
+				CB5FB7A51F5F2B9400F872F3 /* TestTableViewController.h */,
+				CB5FB7A61F5F2B9400F872F3 /* TestTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB5FB7AB1F5F2B9400F872F3 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7AC1F5F2B9400F872F3 /* MainWindow-iPad.xib */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CB5FB7AF1F5F2B9400F872F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7B01F5F2B9400F872F3 /* cancel.png */,
+				CB5FB7B11F5F2B9400F872F3 /* ok.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB5FB7B31F5F2B9400F872F3 /* Framework-objc */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7B41F5F2B9400F872F3 /* CoreActionSheetPicker.framework */,
+				CB5FB7B51F5F2B9400F872F3 /* Framework-objc */,
+				CB5FB7C11F5F2B9400F872F3 /* Framework-objc.xcodeproj */,
+				CB5FB7C41F5F2B9400F872F3 /* Framework-objcTests */,
+			);
+			path = "Framework-objc";
+			sourceTree = "<group>";
+		};
+		CB5FB7B51F5F2B9400F872F3 /* Framework-objc */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7B61F5F2B9400F872F3 /* AppDelegate.h */,
+				CB5FB7B71F5F2B9400F872F3 /* AppDelegate.m */,
+				CB5FB7B81F5F2B9400F872F3 /* LaunchScreen.xib */,
+				CB5FB7BA1F5F2B9400F872F3 /* Main.storyboard */,
+				CB5FB7BC1F5F2B9400F872F3 /* Images.xcassets */,
+				CB5FB7BD1F5F2B9400F872F3 /* Info.plist */,
+				CB5FB7BE1F5F2B9400F872F3 /* main.m */,
+				CB5FB7BF1F5F2B9400F872F3 /* MyTableViewController.h */,
+				CB5FB7C01F5F2B9400F872F3 /* MyTableViewController.m */,
+			);
+			path = "Framework-objc";
+			sourceTree = "<group>";
+		};
+		CB5FB7C21F5F2B9400F872F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB8361F5F2B9500F872F3 /* Framework-objc.app */,
+				CB5FB8381F5F2B9500F872F3 /* Framework-objcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5FB7C41F5F2B9400F872F3 /* Framework-objcTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7C51F5F2B9400F872F3 /* Framework_objcTests.m */,
+				CB5FB7C61F5F2B9400F872F3 /* Info.plist */,
+			);
+			path = "Framework-objcTests";
+			sourceTree = "<group>";
+		};
+		CB5FB7C71F5F2B9400F872F3 /* ObjC-Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7C81F5F2B9400F872F3 /* ActionSheetPicker Tests */,
+				CB5FB7D31F5F2B9400F872F3 /* ActionSheetPicker-Info.plist */,
+				CB5FB7D41F5F2B9400F872F3 /* ActionSheetPicker.xcodeproj */,
+				CB5FB7D71F5F2B9400F872F3 /* ActionSheetPicker_Prefix.pch */,
+				CB5FB7D81F5F2B9400F872F3 /* Example */,
+				CB5FB7F01F5F2B9500F872F3 /* Storyboard.storyboard */,
+			);
+			path = "ObjC-Example";
+			sourceTree = "<group>";
+		};
+		CB5FB7C81F5F2B9400F872F3 /* ActionSheetPicker Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7C91F5F2B9400F872F3 /* AbstractActionSheetPickerTestCase.m */,
+				CB5FB7CA1F5F2B9400F872F3 /* ActionSheetCustomPickerTestCase.m */,
+				CB5FB7CB1F5F2B9400F872F3 /* ActionSheetCustomPickerTestDelegate.h */,
+				CB5FB7CC1F5F2B9400F872F3 /* ActionSheetCustomPickerTestDelegate.m */,
+				CB5FB7CD1F5F2B9400F872F3 /* ActionSheetDatePickerTestCase.m */,
+				CB5FB7CE1F5F2B9400F872F3 /* ActionSheetLocalePickerTestCase.m */,
+				CB5FB7CF1F5F2B9400F872F3 /* ActionSheetPicker Tests-Info.plist */,
+				CB5FB7D01F5F2B9400F872F3 /* ActionSheetPicker Tests-Prefix.pch */,
+				CB5FB7D11F5F2B9400F872F3 /* InfoPlist.strings */,
+			);
+			path = "ActionSheetPicker Tests";
+			sourceTree = "<group>";
+		};
+		CB5FB7D51F5F2B9400F872F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB82A1F5F2B9500F872F3 /* ActionSheetPicker.app */,
+				CB5FB82C1F5F2B9500F872F3 /* ActionSheetPickerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5FB7D81F5F2B9400F872F3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7D91F5F2B9400F872F3 /* Classes */,
+				CB5FB7E81F5F2B9500F872F3 /* Default-568h@2x.png */,
+				CB5FB7E91F5F2B9500F872F3 /* Default-667h@2x.png */,
+				CB5FB7EA1F5F2B9500F872F3 /* Default-736h@3x.png */,
+				CB5FB7EB1F5F2B9500F872F3 /* Default-736w@3x.png */,
+				CB5FB7EC1F5F2B9500F872F3 /* main.m */,
+				CB5FB7ED1F5F2B9500F872F3 /* Resources */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		CB5FB7D91F5F2B9400F872F3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7DA1F5F2B9400F872F3 /* AbstractActionSheetPicker+CustomButton.h */,
+				CB5FB7DB1F5F2B9400F872F3 /* AbstractActionSheetPicker+CustomButton.m */,
+				CB5FB7DC1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.h */,
+				CB5FB7DD1F5F2B9400F872F3 /* ActionSheetPickerAppDelegate.m */,
+				CB5FB7DE1F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.h */,
+				CB5FB7DF1F5F2B9400F872F3 /* ActionSheetPickerCustomPickerDelegate.m */,
+				CB5FB7E01F5F2B9400F872F3 /* ActionSheetPickerTableViewController.h */,
+				CB5FB7E11F5F2B9400F872F3 /* ActionSheetPickerTableViewController.m */,
+				CB5FB7E21F5F2B9400F872F3 /* ActionSheetPickerViewController.h */,
+				CB5FB7E31F5F2B9400F872F3 /* ActionSheetPickerViewController.m */,
+				CB5FB7E41F5F2B9500F872F3 /* NSDate+TCUtils.h */,
+				CB5FB7E51F5F2B9500F872F3 /* NSDate+TCUtils.m */,
+				CB5FB7E61F5F2B9500F872F3 /* TestTableViewController.h */,
+				CB5FB7E71F5F2B9500F872F3 /* TestTableViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB5FB7ED1F5F2B9500F872F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7EE1F5F2B9500F872F3 /* cancel.png */,
+				CB5FB7EF1F5F2B9500F872F3 /* ok.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB5FB7F11F5F2B9500F872F3 /* Swift-Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7F21F5F2B9500F872F3 /* Podfile */,
+				CB5FB7F31F5F2B9500F872F3 /* Swift-Example */,
+				CB5FB7FD1F5F2B9500F872F3 /* Swift-Example.xcodeproj */,
+				CB5FB8001F5F2B9500F872F3 /* Swift-ExampleTests */,
+			);
+			path = "Swift-Example";
+			sourceTree = "<group>";
+		};
+		CB5FB7F31F5F2B9500F872F3 /* Swift-Example */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7F41F5F2B9500F872F3 /* AppDelegate.swift */,
+				CB5FB7F51F5F2B9500F872F3 /* LaunchScreen.xib */,
+				CB5FB7F71F5F2B9500F872F3 /* Main.storyboard */,
+				CB5FB7F91F5F2B9500F872F3 /* Images.xcassets */,
+				CB5FB7FA1F5F2B9500F872F3 /* Info.plist */,
+				CB5FB7FB1F5F2B9500F872F3 /* ViewControllers */,
+			);
+			path = "Swift-Example";
+			sourceTree = "<group>";
+		};
+		CB5FB7FB1F5F2B9500F872F3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB7FC1F5F2B9500F872F3 /* SWTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CB5FB7FE1F5F2B9500F872F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB83C1F5F2B9500F872F3 /* Swift-Example.app */,
+				CB5FB83E1F5F2B9500F872F3 /* Swift-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5FB8001F5F2B9500F872F3 /* Swift-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB8011F5F2B9500F872F3 /* Info.plist */,
+				CB5FB8021F5F2B9500F872F3 /* Swift_ExampleTests.swift */,
+			);
+			path = "Swift-ExampleTests";
+			sourceTree = "<group>";
+		};
+		CB5FB8051F5F2B9500F872F3 /* Pickers */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB8061F5F2B9500F872F3 /* AbstractActionSheetPicker.h */,
+				CB5FB8071F5F2B9500F872F3 /* AbstractActionSheetPicker.m */,
+				CB5FB8081F5F2B9500F872F3 /* ActionSheetCustomPicker.h */,
+				CB5FB8091F5F2B9500F872F3 /* ActionSheetCustomPicker.m */,
+				CB5FB80A1F5F2B9500F872F3 /* ActionSheetCustomPickerDelegate.h */,
+				CB5FB80B1F5F2B9500F872F3 /* ActionSheetDatePicker.h */,
+				CB5FB80C1F5F2B9500F872F3 /* ActionSheetDatePicker.m */,
+				CB5FB80D1F5F2B9500F872F3 /* ActionSheetDistancePicker.h */,
+				CB5FB80E1F5F2B9500F872F3 /* ActionSheetDistancePicker.m */,
+				CB5FB80F1F5F2B9500F872F3 /* ActionSheetLocalePicker.h */,
+				CB5FB8101F5F2B9500F872F3 /* ActionSheetLocalePicker.m */,
+				CB5FB8111F5F2B9500F872F3 /* ActionSheetMultipleStringPicker.h */,
+				CB5FB8121F5F2B9500F872F3 /* ActionSheetMultipleStringPicker.m */,
+				CB5FB8131F5F2B9500F872F3 /* ActionSheetPicker.h */,
+				CB5FB8141F5F2B9500F872F3 /* ActionSheetStringPicker.h */,
+				CB5FB8151F5F2B9500F872F3 /* ActionSheetStringPicker.m */,
+				CB5FB8161F5F2B9500F872F3 /* DistancePickerView.h */,
+				CB5FB8171F5F2B9500F872F3 /* DistancePickerView.m */,
+				CB5FB8181F5F2B9500F872F3 /* SWActionSheet.h */,
+				CB5FB8191F5F2B9500F872F3 /* SWActionSheet.m */,
+			);
+			path = Pickers;
+			sourceTree = "<group>";
+		};
+		CB5FB81B1F5F2B9500F872F3 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FB81C1F5F2B9500F872F3 /* blur.png */,
+				CB5FB81D1F5F2B9500F872F3 /* custom.png */,
+				CB5FB81E1F5F2B9500F872F3 /* date.png */,
+				CB5FB81F1F5F2B9500F872F3 /* example.gif */,
+				CB5FB8201F5F2B9500F872F3 /* ipad.png */,
+				CB5FB8211F5F2B9500F872F3 /* locale.png */,
+				CB5FB8221F5F2B9500F872F3 /* string.png */,
+				CB5FB8231F5F2B9500F872F3 /* time.png */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5FB7461F5F23C200F872F3 /* ActionSheetPickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5FB76F1F5F23C300F872F3 /* Build configuration list for PBXNativeTarget "ActionSheetPickerDemo" */;
+			buildPhases = (
+				CB5FB7431F5F23C200F872F3 /* Sources */,
+				CB5FB7441F5F23C200F872F3 /* Frameworks */,
+				CB5FB7451F5F23C200F872F3 /* Resources */,
+				CB5FB8411F5F2BCA00F872F3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionSheetPickerDemo;
+			productName = ActionSheetPickerDemo;
+			productReference = CB5FB7471F5F23C200F872F3 /* ActionSheetPickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB5FB75A1F5F23C300F872F3 /* ActionSheetPickerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5FB7721F5F23C300F872F3 /* Build configuration list for PBXNativeTarget "ActionSheetPickerDemoTests" */;
+			buildPhases = (
+				CB5FB7571F5F23C300F872F3 /* Sources */,
+				CB5FB7581F5F23C300F872F3 /* Frameworks */,
+				CB5FB7591F5F23C300F872F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5FB75D1F5F23C300F872F3 /* PBXTargetDependency */,
+			);
+			name = ActionSheetPickerDemoTests;
+			productName = ActionSheetPickerDemoTests;
+			productReference = CB5FB75B1F5F23C300F872F3 /* ActionSheetPickerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB5FB7651F5F23C300F872F3 /* ActionSheetPickerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB5FB7751F5F23C300F872F3 /* Build configuration list for PBXNativeTarget "ActionSheetPickerDemoUITests" */;
+			buildPhases = (
+				CB5FB7621F5F23C300F872F3 /* Sources */,
+				CB5FB7631F5F23C300F872F3 /* Frameworks */,
+				CB5FB7641F5F23C300F872F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB5FB7681F5F23C300F872F3 /* PBXTargetDependency */,
+			);
+			name = ActionSheetPickerDemoUITests;
+			productName = ActionSheetPickerDemoUITests;
+			productReference = CB5FB7661F5F23C300F872F3 /* ActionSheetPickerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5FB73F1F5F23C200F872F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ryuta Ishikawa";
+				TargetAttributes = {
+					CB5FB7461F5F23C200F872F3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 6GCKPF2C83;
+						ProvisioningStyle = Automatic;
+					};
+					CB5FB75A1F5F23C300F872F3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB5FB7461F5F23C200F872F3;
+					};
+					CB5FB7651F5F23C300F872F3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CB5FB7461F5F23C200F872F3;
+					};
+				};
+			};
+			buildConfigurationList = CB5FB7421F5F23C200F872F3 /* Build configuration list for PBXProject "ActionSheetPickerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB5FB73E1F5F23C200F872F3;
+			productRefGroup = CB5FB7481F5F23C200F872F3 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CB5FB7981F5F2B9400F872F3 /* Products */;
+					ProjectRef = CB5FB7971F5F2B9400F872F3 /* ActionSheetPicker-iOS-5-7.xcodeproj */;
+				},
+				{
+					ProductGroup = CB5FB7D51F5F2B9400F872F3 /* Products */;
+					ProjectRef = CB5FB7D41F5F2B9400F872F3 /* ActionSheetPicker.xcodeproj */;
+				},
+				{
+					ProductGroup = CB5FB78F1F5F2B9400F872F3 /* Products */;
+					ProjectRef = CB5FB78E1F5F2B9400F872F3 /* CoreActionSheetPicker.xcodeproj */;
+				},
+				{
+					ProductGroup = CB5FB7C21F5F2B9400F872F3 /* Products */;
+					ProjectRef = CB5FB7C11F5F2B9400F872F3 /* Framework-objc.xcodeproj */;
+				},
+				{
+					ProductGroup = CB5FB7FE1F5F2B9500F872F3 /* Products */;
+					ProjectRef = CB5FB7FD1F5F2B9500F872F3 /* Swift-Example.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CB5FB7461F5F23C200F872F3 /* ActionSheetPickerDemo */,
+				CB5FB75A1F5F23C300F872F3 /* ActionSheetPickerDemoTests */,
+				CB5FB7651F5F23C300F872F3 /* ActionSheetPickerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CB5FB8261F5F2B9500F872F3 /* ActionSheetPicker-iOS-5-7.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ActionSheetPicker-iOS-5-7.app";
+			remoteRef = CB5FB8251F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB82A1F5F2B9500F872F3 /* ActionSheetPicker.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ActionSheetPicker.app;
+			remoteRef = CB5FB8291F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB82C1F5F2B9500F872F3 /* ActionSheetPickerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ActionSheetPickerTests.xctest;
+			remoteRef = CB5FB82B1F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB8301F5F2B9500F872F3 /* CoreActionSheetPicker.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CoreActionSheetPicker.framework;
+			remoteRef = CB5FB82F1F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB8321F5F2B9500F872F3 /* CoreActionSheetPickerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CoreActionSheetPickerTests.xctest;
+			remoteRef = CB5FB8311F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB8361F5F2B9500F872F3 /* Framework-objc.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Framework-objc.app";
+			remoteRef = CB5FB8351F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB8381F5F2B9500F872F3 /* Framework-objcTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Framework-objcTests.xctest";
+			remoteRef = CB5FB8371F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB83C1F5F2B9500F872F3 /* Swift-Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Swift-Example.app";
+			remoteRef = CB5FB83B1F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CB5FB83E1F5F2B9500F872F3 /* Swift-ExampleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Swift-ExampleTests.xctest";
+			remoteRef = CB5FB83D1F5F2B9500F872F3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5FB7451F5F23C200F872F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FB7551F5F23C200F872F3 /* LaunchScreen.storyboard in Resources */,
+				CB5FB7521F5F23C200F872F3 /* Assets.xcassets in Resources */,
+				CB5FB7501F5F23C200F872F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FB7591F5F23C300F872F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FB7641F5F23C300F872F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB5FB8411F5F2BCA00F872F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/CoreActionSheetPicker.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5FB7431F5F23C200F872F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FB74D1F5F23C200F872F3 /* ViewController.swift in Sources */,
+				CB5FB74B1F5F23C200F872F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FB7571F5F23C300F872F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FB7601F5F23C300F872F3 /* ActionSheetPickerDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5FB7621F5F23C300F872F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5FB76B1F5F23C300F872F3 /* ActionSheetPickerDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB5FB75D1F5F23C300F872F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5FB7461F5F23C200F872F3 /* ActionSheetPickerDemo */;
+			targetProxy = CB5FB75C1F5F23C300F872F3 /* PBXContainerItemProxy */;
+		};
+		CB5FB7681F5F23C300F872F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB5FB7461F5F23C200F872F3 /* ActionSheetPickerDemo */;
+			targetProxy = CB5FB7671F5F23C300F872F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB5FB74E1F5F23C200F872F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5FB74F1F5F23C200F872F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB5FB7531F5F23C200F872F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5FB7541F5F23C200F872F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CB5FB7B81F5F2B9400F872F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5FB7B91F5F2B9400F872F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CB5FB7BA1F5F2B9400F872F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5FB7BB1F5F2B9400F872F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB5FB7D11F5F2B9400F872F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5FB7D21F5F2B9400F872F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB5FB7F51F5F2B9500F872F3 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5FB7F61F5F2B9500F872F3 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		CB5FB7F71F5F2B9500F872F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5FB7F81F5F2B9500F872F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB5FB76D1F5F23C300F872F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB5FB76E1F5F23C300F872F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB5FB7701F5F23C300F872F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GCKPF2C83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ActionSheetPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.d-colors.ActionSheetPickerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CB5FB7711F5F23C300F872F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6GCKPF2C83;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = ActionSheetPickerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.d-colors.ActionSheetPickerDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CB5FB7731F5F23C300F872F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ActionSheetPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.d-colors.ActionSheetPickerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActionSheetPickerDemo.app/ActionSheetPickerDemo";
+			};
+			name = Debug;
+		};
+		CB5FB7741F5F23C300F872F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ActionSheetPickerDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.d-colors.ActionSheetPickerDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ActionSheetPickerDemo.app/ActionSheetPickerDemo";
+			};
+			name = Release;
+		};
+		CB5FB7761F5F23C300F872F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ActionSheetPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.d-colors.ActionSheetPickerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ActionSheetPickerDemo;
+			};
+			name = Debug;
+		};
+		CB5FB7771F5F23C300F872F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ActionSheetPickerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.d-colors.ActionSheetPickerDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ActionSheetPickerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5FB7421F5F23C200F872F3 /* Build configuration list for PBXProject "ActionSheetPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5FB76D1F5F23C300F872F3 /* Debug */,
+				CB5FB76E1F5F23C300F872F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5FB76F1F5F23C300F872F3 /* Build configuration list for PBXNativeTarget "ActionSheetPickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5FB7701F5F23C300F872F3 /* Debug */,
+				CB5FB7711F5F23C300F872F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5FB7721F5F23C300F872F3 /* Build configuration list for PBXNativeTarget "ActionSheetPickerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5FB7731F5F23C300F872F3 /* Debug */,
+				CB5FB7741F5F23C300F872F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB5FB7751F5F23C300F872F3 /* Build configuration list for PBXNativeTarget "ActionSheetPickerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5FB7761F5F23C300F872F3 /* Debug */,
+				CB5FB7771F5F23C300F872F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5FB73F1F5F23C200F872F3 /* Project object */;
+}
